@@ -1,0 +1,69 @@
+11-02-16
+
+How did viewing a diff between two versions of a file help you see the buck that was introduced?
+
+Computers are very good a mechanical things... don't waste energy/time looking for changes. 
+The human brain is not set up to keep that mass of data in memeory. So let the computer to 
+the chaff-whinowing, so you can spend the mental energy on useful things - such as finding bugs!
+
+tldr:
+You look only at what changed. (Save energy + time. Also bug now much less 'buried')
+If the file is formatted correctly, you are comparing less at a time.
+-----------------------------------------------------------------------------------------------------------------
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+
+You can see changes over time.... you can check the running of various versions to trap when(and where) a bug
+crept into the works.
+
+Acts like a reasonably infallable long-term memory.
+-----------------------------------------------------------------------------------------------------------------
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google Docs does?
+
+Manual Saves
+Downsides:
+Operator Error - fails to commit often enough/too often. 
+
+Upsides:
+Commits are at least theoretically at logical points in the coding progression.
+Very flexible - absolutly no dictation from the system.
+
+Auto saves
+Downsides:
+No real chance that the save point will be at logical moment in time. Files are not compilable as a general rule...
+
+Upsides:
+Can't forget - saves are automatic. Not necessarly a desirable thing....
+-------------------------------------------------------------------------------------------------------------------
+Why do you think some version control systems, like Git, allow saving multiple
+ files in one commit, while others, like Google Docs, treat each file separately?
+ 
+ A piece of software is generally written for a purpose, a use case. For google docs, the sytem is aimed at non-coding work,
+ which for most users involved altering one file at a time, and very rarely involving tight coupling between files.
+ 
+ Coding is defferent. Muliple file and abstraction/fuctions/libraries etc. are a given for any non-trivial project. So whole
+ repository saving is a necessity, so correct versioning can be maintained. (always able to restore ALL file to a given point
+ in time.)
+-------------------------------------------------------------------------------------------------------------------
+How can you use the commands git log and git diff to view the history of files?
+
+git log = Get a history of commits...
+git diff = compare two commits
+
+These two commands are the starting point for reviewing a set of changes between two commits....
+-------------------------------------------------------------------------------------------------------------------
+How might using version control make you more confident to make changes that could break something?
+
+You can always return to somthing that works. If you have a working commit, you always have a position from which to
+perform a rear guard action.
+------------------------------------------------------------------------------------------------------------------
+Now that you have your workspace set up, what do you want to try using Git for?
+
+First - on these lessons, as directed
+Second - Use it during my programming course. (Start getting used to things)
+Third - Use it on my autonomus car MicroDegree.
+
+
+ 
+ 
