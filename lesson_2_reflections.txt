@@ -1,3 +1,11 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 Initialzing a repository generates the empty metadata tracking files needed. Can't update a repository that does not exist... 
+-------------------------------------------------
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is just that... a stageing area, free of all other thinges excpet what has not been commited yet. 
+
+Repository is history, locked in place. 
+Working directory is open, not locked at all. (Assuming no interfearing file permissions!)
