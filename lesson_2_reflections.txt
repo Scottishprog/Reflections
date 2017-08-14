@@ -24,3 +24,8 @@ Differeant feature levels.
 
 Branches help by keeping types of changes separated. So at least in most situations, fixing/changing one thing does not commit you to to another change/fix. 
 (Assuming that the commits were done often enough.)
+
+How do the diagrams help you visualize the branch structure?
+
+This one is hard to anwer - the picture matches the concept in my head - essentially an (potentially) infinite branching construct, with new branchs popping
+off and rejoining over time.
