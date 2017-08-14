@@ -9,3 +9,18 @@ Staging area is just that... a stageing area, free of all other thinges excpet w
 
 Repository is history, locked in place. 
 Working directory is open, not locked at all. (Assuming no interfearing file permissions!)
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Can be done by comparing both against the working directory AND the last commit(s).
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Situations:
+
+Experimental features in general.
+Mulitple possible solutions for a given problem/bug.
+Differeant feature levels.
+
+Branches help by keeping types of changes separated. So at least in most situations, fixing/changing one thing does not commit you to to another change/fix. 
+(Assuming that the commits were done often enough.)
