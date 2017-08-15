@@ -34,4 +34,11 @@ What is the result of merging two branches together? Why do we represent it in t
 
 All changes are combined... however clashes seem inevitable...
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Manual merging always... good for small projects? Hard to keep track/can be needlessly repetitive.
+
+Automatic merging - a great time/energy saver, but can cause weird errors if the auto-merge attempts to do too much. This could be automated, but unlikely 
+in the near future.
+
 The diagram shows two different branches... independant than merged...
