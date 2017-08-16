@@ -4,3 +4,8 @@ Two common scenarios:
 
 1 - To show off your work for employers etc.
 2 - Open source/collabrative projects.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Boils down to control.  You don't want a remote changing you files without you know what is going on... otherwise it would be an excellent way to 
+produce a multitude of bugs!
