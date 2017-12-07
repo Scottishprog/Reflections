@@ -9,3 +9,13 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Boils down to control.  You don't want a remote changing you files without you know what is going on... otherwise it would be an excellent way to 
 produce a multitude of bugs!
+
+Describe the differences between forks, clones, and branches. When would you sue one instead of theanother?
+
+Fork - take a whole reposetory, and make a copy of it, under your own control.
+Clone - Copying a repository from a remote location. This copy is meant to be syncronized with the remote repository. This allows collaboration etc.
+Branch - A string of changes inside of the repository, representing a set of experimental changes for example.
+
+Fork is used to take over/ or experiment with some one else's repository.
+Clone is commonly used - it is rarely desired to have work done on the same computer as the central repository. Github does have it's limitations.
+Branching is used for a host of reasons, including experimental branches, trying out different directions etc.
