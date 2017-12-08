@@ -19,3 +19,10 @@ Branch - A string of changes inside of the repository, representing a set of exp
 Fork is used to take over/ or experiment with some one else's repository.
 Clone is commonly used - it is rarely desired to have work done on the same computer as the central repository. Github does have it's limitations.
 Branching is used for a host of reasons, including experimental branches, trying out different directions etc.
+
+----------------------------------------------------
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Main benifit seems to be preplanning a messy merge. You can compare the two files, and plan on how you intent to resolve the issue, before committing.
+Having the local file also has be benifit of no web connection required.
