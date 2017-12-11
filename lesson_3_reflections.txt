@@ -29,7 +29,7 @@ Having the local file also has be benifit of no web connection required.
 
 ------------------------------------------------------
 
-Lesson 3 ch 35
+Lesson 3 ch 25
 
 How would you collaborate withou using Git or GitHub?  Waht would be easier, and what would be harder?
 
@@ -42,3 +42,13 @@ of which can be seen directly.
 The loss of fuctionality would make non-trivial projects MUCH harder to operate.  The size and complexity of the current code bases are a direct
 result, in part, from the use of version-control software.
 
+
+----------------------------------------------------
+
+Lesson 3 Ch 31
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+For a project that is not exploring ideas, OR making changes to major sub-fuctions, only one branch is needed. But the moment you start doing non-trivial 
+changes to a sub-fuction, best to branch it out, before mergeing it into a test branch. This allows the master to be in better operating condition, major 
+changes are introduced only when some level of testing and integration has been done. (In theory, at least.)
