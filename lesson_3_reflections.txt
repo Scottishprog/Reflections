@@ -26,3 +26,19 @@ What is the benefit of having a copy of the last known state of the remote store
 
 Main benifit seems to be preplanning a messy merge. You can compare the two files, and plan on how you intent to resolve the issue, before committing.
 Having the local file also has be benifit of no web connection required.
+
+------------------------------------------------------
+
+Lesson 3 ch 35
+
+How would you collaborate withou using Git or GitHub?  Waht would be easier, and what would be harder?
+
+Very little would be easier - true, you don't have to deal with all of the GIT commands, but you would lose in a vast number of ways, only some
+of which can be seen directly.
+
+ - Version control - gone.  Manual version control, saving by date etc. would be pure misery. 
+ - Loss of collaboration.  Only one person could touch the code at a time. (Try inforcing that!) This would be to avoid the need to merge files. (perhaps 
+   a built in diff as a bandaid?)
+The loss of fuctionality would make non-trivial projects MUCH harder to operate.  The size and complexity of the current code bases are a direct
+result, in part, from the use of version-control software.
+
